@@ -3,9 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rock paper and scissor</title>
+    <title>Rock, Paper, Scissors</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
+    <div class="header">
+        <h1>Rock-Paper-Scissors</h1>
+    </div>
+    <div class="middle">
+        <div class="choices">
+            <!-- Corrected function call with lowercase "p" -->
+            <button onclick="playGame('rock')">👊</button>
+            <button onclick="playGame('paper')">📃</button>
+            <button onclick="playGame('scissors')">✂️</button>
+        </div>
+        <div class="text">
+            <div id="humanResult">Human: </div>
+            <div id="computerResult">Computer:</div>
+            <div id="result">Result:</div>
+        </div>
+        <div class="score" >​🙍‍♂️​Human Score: 
+            <span id="humanDisplayScore">0</span>  
+        </div> 
+        <div class="score">💻​Computer Score: 
+            <span id="computerDisplayScore">0</span>
+        </div> 
+
+
+    
+    </div>
+    <footer>
+        <p>&copy; 2024 Thierno Madiou Diallo. All rights reserved.</p>
+    </footer>
     <script src="myscript.js"></script> 
 </body>
 </html>

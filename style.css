@@ -1,0 +1,50 @@
+body{
+    margin: 0;
+    text-align: center;
+}
+.header{
+    background-color: rgb(255, 196, 0);
+    padding: 20px;
+}
+h1{
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+button{
+    font-size: 50px;
+    border-radius: 250px;
+    padding: 30px;
+    background-color: orange;
+    border: 3px solid white ;
+}
+.text{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 30px;
+    font-weight: bold;
+}
+.middle{
+    background-color: rgb(95, 95, 95);
+    padding: 20px;
+}
+footer{
+    background-color: black;
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    text-align: center;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.green{
+    color: rgb(59, 209, 59);
+    
+}
+.red{
+    color: rgb(255, 0, 0);
+    
+}
+.score{
+    font-size: 30px;
+    
+}
